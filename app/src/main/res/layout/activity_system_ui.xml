@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/btn8"
+            style="@style/btnStyle"
+            android:text="SYSTEM_UI_FLAG_IMMERSIVE" />
+
+    <TextView
+            android:id="@+id/btnNext"
+            style="@style/btnStyle"
+            android:text="SYSTEM_UI_FLAG_FULLSCREEN" />
+
+    <TextView
+            android:id="@+id/btn"
+            style="@style/btnStyle"
+            android:text="SYSTEM_UI_FLAG_LOW_PROFILE" />
+
+    <TextView
+            android:id="@+id/btn7"
+            style="@style/btnStyle"
+            android:text="SYSTEM_UI_FLAG_LAYOUT_STABLE" />
+
+    <TextView
+            android:id="@+id/btnGradient"
+            style="@style/btnStyle"
+            android:text="SYSTEM_UI_FLAG_HIDE_NAVIGATION" />
+
+
+    <TextView
+            android:id="@+id/btn9"
+            style="@style/btnStyle"
+            android:text="SYSTEM_UI_FLAG_IMMERSIVE_STICKY" />
+
+    <TextView
+            android:id="@+id/btn6"
+            style="@style/btnStyle"
+            android:text="SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN" />
+
+
+    <TextView
+            android:id="@+id/btn5"
+            style="@style/btnStyle"
+            android:text="SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION" />
+</LinearLayout>

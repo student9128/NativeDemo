@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:alignContent="flex_start"
+        app:alignItems="flex_start"
+        app:flexWrap="wrap"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/btn"
+            style="@style/btnStyle"
+            android:text="状态栏变色动画" />
+
+    <TextView
+            android:id="@+id/btnGradient"
+            style="@style/btnStyle"
+            android:text="修改状态栏颜色" />
+
+    <TextView
+            android:id="@+id/btnNext"
+            style="@style/btnStyle"
+            android:text="Next" />
+
+    <TextView
+            android:id="@+id/btnTheme"
+            style="@style/btnStyle"
+            android:text="Theme" />
+
+</com.google.android.flexbox.FlexboxLayout>
