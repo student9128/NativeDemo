@@ -23,6 +23,7 @@
                 android:name=".ThemeActivity"
                 android:theme="@style/BaseTheme" />
         <activity android:name=".SystemUIActivity" />
+        <activity android:name=".TestActivity"/>
     </application>
 
 </manifest>

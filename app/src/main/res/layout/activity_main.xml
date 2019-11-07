@@ -12,21 +12,31 @@
     <TextView
             android:id="@+id/btn"
             style="@style/btnStyle"
-            android:text="状态栏变色动画" />
+            android:text="@string/status_bar_anim_color" />
 
     <TextView
             android:id="@+id/btnGradient"
             style="@style/btnStyle"
-            android:text="修改状态栏颜色" />
+            android:text="@string/status_bar_change_color" />
 
     <TextView
             android:id="@+id/btnNext"
             style="@style/btnStyle"
-            android:text="Next" />
+            android:text="@string/status_bar_pic" />
 
     <TextView
             android:id="@+id/btnTheme"
             style="@style/btnStyle"
-            android:text="Theme" />
+            android:text="@string/status_bar_dynamic_change" />
+
+    <TextView
+            android:id="@+id/btnSystemUi"
+            style="@style/btnStyle"
+            android:text="@string/system_ui_rel" />
+
+    <TextView
+            android:id="@+id/btnTest"
+            style="@style/btnStyle"
+            android:text="@string/test" />
 
 </com.google.android.flexbox.FlexboxLayout>

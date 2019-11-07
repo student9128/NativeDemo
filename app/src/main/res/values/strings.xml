@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">NativeDemo</string>
+    <string name="status_bar_rel">状态栏相关</string>
+    <string name="status_bar_anim_color">状态栏颜色变化</string>
+    <string name="status_bar_change_color">状态栏颜色修改</string>
+    <string name="status_bar_pic">状态栏为图片</string>
+    <string name="status_bar_dynamic_change">状态栏动态修改</string>
+    <string name="system_ui_rel">SYSTEM UI相关</string>
+    <string name="test">Test Activity</string>
 </resources>

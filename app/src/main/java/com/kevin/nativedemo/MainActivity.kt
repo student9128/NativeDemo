@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity() {
             )
         }
         btnTheme.setOnClickListener { startActivity(Intent(this@MainActivity,ThemeActivity::class.java)) }
+        btnTest.setOnClickListener { startActivity(Intent(this@MainActivity,TestActivity::class.java)) }
 
 
 //        Looper.myQueue().addIdleHandler(object : MessageQueue.IdleHandler {
