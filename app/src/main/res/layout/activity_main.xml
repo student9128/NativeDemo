@@ -39,4 +39,9 @@
             style="@style/btnStyle"
             android:text="@string/test" />
 
+    <TextView
+            android:id="@+id/btnAnimBG"
+            style="@style/btnStyle"
+            android:text="@string/anim_bg" />
+
 </com.google.android.flexbox.FlexboxLayout>

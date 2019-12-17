@@ -20,11 +20,9 @@ class NextActivity :AppCompatActivity() {
     }
     private fun setAppBarHeight() {
         val appBarLayout:AppBarLayout = findViewById(R.id.appbar)
-        appBarLayout.setLayoutParams(
-            CoordinatorLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT,
-                getStatusBarHeight() + dpToPx(48 + 56)
-            )
+        appBarLayout.layoutParams = CoordinatorLayout.LayoutParams(
+            ViewGroup.LayoutParams.MATCH_PARENT,
+            getStatusBarHeight() + dpToPx(48 + 56)
         )
     }
 

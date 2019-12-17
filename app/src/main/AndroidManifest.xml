@@ -23,7 +23,10 @@
                 android:name=".ThemeActivity"
                 android:theme="@style/BaseTheme" />
         <activity android:name=".SystemUIActivity" />
-        <activity android:name=".TestActivity"/>
+        <activity android:name=".TestActivity" />
+        <activity
+                android:name=".AnimBGActivity"
+                android:theme="@style/AnimTheme" />
     </application>
 
 </manifest>
